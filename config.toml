@@ -14,6 +14,8 @@ enableemoji = false
 [params]
     description = "Recetas y ... gallegas"
     googleSearch = "google-search-code"
+    adsense = "ca-pub-2159613976156530"
+    googleAnalytics = 'G-XP6ZKZTPKK'
     showDate = true # make false if dont want to show date for evergeen articles
     math = false # best to enable this in the front matter of a page
     githubLink = "egomezbpedro/ramium/"
@@ -31,31 +33,31 @@ enableemoji = false
 
 [menu]
     [[menu.main]]
-        name = "Home"
+        name = "Inicio"
         url = "/"
         weight = 1
 
     [[menu.main]]
         identifier = "blog"
-        name = "This Blog"
+        name = "Contenido"
         weight = 2
             [[menu.main]]
                 parent = "blog"
-                name = "All Tags"
+                name = "Etiquetas"
                 url = "/tags/"
                 weight = 1
             [[menu.main]]
                 parent = "blog"
-                name = "All Sections"
+                name = "Secciones"
                 url = "/sections/"
                 weight = 2
             [[menu.main]]
                 parent = "blog"
-                name = "All Posts"
+                name = "Publicaciones"
                 url = "/posts/"
                 weight = 3
     
     [[menu.main]]
-        name = "Author"
+        name = "Acerca de"
         url = "/authorr/"
         weight = 3
